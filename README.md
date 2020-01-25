@@ -16,3 +16,9 @@ Copyright (c) 2020, Aatish Pradhan
  
 Project based on the 
 [Computational Molecular Science Python Cookiecutter](https://github.com/molssi/cookiecutter-cms) version 1.1.
+
+This repository is currently under development. To do a development install, download this repository and type:
+
+'pip install -e'
+
+in this directory
