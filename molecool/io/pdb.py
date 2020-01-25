@@ -8,6 +8,25 @@ import numpy as np
 
 
 def open_pdb(file_location):
+    """
+    Open and read the pdb file from a .pdb file.
+
+    The pdb file must specify the atom elements in the last column and follow the conventions outlines in the PDB format specification
+
+    Parameters
+    ----------
+    file location : str
+        The file location of the .pdb file
+    
+    Returns
+    -------
+    Symbols : list
+        The atomic symbols of the elements from the pdb file.
+    Coordinates : np.ndarray
+        The coordinates of the elements from the pdb file.
+
+    """
+
     # This function reads in a pdb file and returns the atom names and coordinates.
     with open(file_location) as f:
         data = f.readlines()
