@@ -23,9 +23,9 @@ def canvas(with_attribution=True):
         Compiled string including quote and optional attribution
     """
 
-    quote = "The code is but a canvas to our imagination!!!!"
+    quote = "Too cool for this MOLEcool!"
     if with_attribution:
-        quote += "\n\t- Adapted from Henry David Thoreau"
+        quote += "\n\t- Aatish's humour 101"
     return quote
 
 
