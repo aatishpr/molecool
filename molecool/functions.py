@@ -13,6 +13,7 @@ from mpl_toolkits.mplot3d import Axes3D
 
 #%matplotlib notebook
 
+
 def canvas(with_attribution=True):
     """
     Placeholder function to show example docstring (NumPy format)
